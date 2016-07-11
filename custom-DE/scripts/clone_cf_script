@@ -1,7 +1,0 @@
-#!/usr/bin/expect -f
-spawn git clone https://github.com/ronachong/configuration.git
-expect "Username for 'https://github.com':"
-send "ronachong\n";
-expect "Password for 'https://ronachong@github.com':"
-send "awe7qsd6\n";
-interact

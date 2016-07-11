@@ -1,5 +1,0 @@
-#!/usr/bin/expect -f
-spawn ssh-add /root/.ssh/server_id_rsa
-expect "Enter passphrase for /root/.ssh/server_id_rsa:"
-send "awe7qsd6\n";
-interact
