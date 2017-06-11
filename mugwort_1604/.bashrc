@@ -123,3 +123,5 @@ export NVM_DIR="/home/rona/.nvm"
 
 ############################### modifications by me:
 alias vivaldi-www='vivaldi-stable'
+alias betty-s='~/gh-installs/Betty/betty-style.pl'
+alias betty-d='~/gh-installs/Betty/betty-doc.pl'
