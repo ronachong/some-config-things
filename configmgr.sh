@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #TODO: replace hard-coded vals for repos and branches with vars
+#TODO: add check for PRIVATE marker
 
 # this script is written according to the following configuration:
 #origin  git@github.com:ronachong/all-configuration-things.git (fetch)
