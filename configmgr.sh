@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#TODO: replace hard-coded vals for repos and branches with vars
+
+# this script is written according to the following configuration:
+#origin  git@github.com:ronachong/all-configuration-things.git (fetch)
+#origin  git@github.com:ronachong/all-configuration-things.git (push)
+#some-config-things      git@github.com:ronachong/some-config-things.git (fetch)
+#some-config-things      git@github.com:ronachong/some-config-things.git (push)
+
+
 push_to_private ()
 {
     git checkout master
