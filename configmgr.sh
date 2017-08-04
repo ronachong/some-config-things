@@ -4,6 +4,7 @@ push_to_private ()
 {
     git checkout master
 
+    echo
     echo "($cmd)"
     $cmd # git commit ___ doesn't have output?
     ret=$?
