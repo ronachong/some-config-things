@@ -15,8 +15,8 @@ push_to_private ()
     echo "(git commit -m '$cmt_t' -m '$cmt_m')"
     git commit -m "$cmt_t" -m "$cmt_m"
 
-    echo "(git push all-configuration-things master:master)"
-    git push all-configuration-things master:master
+    echo "(git push origin [all-configuration-things] master:master)"
+    git push origin master:master
 }
 
 push_to_public_and ()
