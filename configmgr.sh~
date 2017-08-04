@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+echo "Push to public and private, or just private? (enter 'public and' or 'private')"
+read dest
+echo "$(dest)\n"
+
+git checkout master
+output=$(git checkout master)
