@@ -4,7 +4,6 @@ push_to_private ()
 {
     git checkout master
 
-    echo
     echo "($cmd)"
     $cmd # git commit ___ doesn't have output?
     ret=$?
@@ -23,12 +22,17 @@ push_to_private ()
 push_to_public_and ()
 {
     push_to_private
+
+    echo
     echo "(git checkout public)"
     git checkout public
     echo "(git cherry-pick master)"
     git cherry-pick master
     echo "(git push some-config-things public:public)"
     git push some-config-things public:public
+
+    echo
+    git checkout master
 }
 
 case $1 in
