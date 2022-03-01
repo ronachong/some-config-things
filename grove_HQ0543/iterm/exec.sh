@@ -1,0 +1,1 @@
+cp ~/repos/personal/some-config-things/grove_HQ0543/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
